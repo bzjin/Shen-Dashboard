@@ -98,7 +98,8 @@ function visual (data, divName){
 			.attr("y", i * 25 + 15.5)
 			.style("text-anchor", "end")
 			.style("font-size", 9)
-			.text(parseInt(thisData[i].inside * 100))
+			//.style("fill", "#C0C0C0")
+			.text(parseInt(thisData[i].inside * 100)+ "%")
 
 		//outside concentrator
 		thisViz.append("rect")
@@ -113,7 +114,8 @@ function visual (data, divName){
 			.attr("y", i * 25 + 15.5)
 			.style("text-anchor", "start")
 			.style("font-size", 9)
-			.text(parseInt(thisData[i].outside * 100))
+			//.style("fill", "#C0C0C0")
+			.text(parseInt(thisData[i].outside * 100) + "%")
 
 		//outside concentrator
 		thisViz.append("text")

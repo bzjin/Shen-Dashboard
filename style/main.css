@@ -6,3 +6,9 @@ text {
 	font-family: "Lato";
 	font-size: 12px;
 }
+
+.section {
+	float: left;
+	width: 50%;
+	margin-bottom: 50px;
+}
